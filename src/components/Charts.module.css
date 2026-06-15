@@ -1,0 +1,5 @@
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 16px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 16px; }
+.h { font-size: 12px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--mut); margin-bottom: 12px; }
+.box { height: 220px; position: relative; }
+@media (max-width: 960px) { .grid { grid-template-columns: 1fr; } }

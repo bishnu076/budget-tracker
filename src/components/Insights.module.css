@@ -1,0 +1,11 @@
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; margin-bottom: 16px; }
+.heading { font-size: 12px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--mut); margin-bottom: 12px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+.tip { background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--blue); border-radius: 12px; padding: 11px 13px; }
+.tip.good { border-left-color: var(--green); }
+.tip.warn { border-left-color: var(--gold); }
+.tip.bad  { border-left-color: var(--red); }
+.tip.info { border-left-color: var(--blue); }
+.tt { font-weight: 600; font-size: 13px; margin-bottom: 3px; }
+.td { color: var(--mut); font-size: 12.5px; line-height: 1.5; }
+.td b { color: var(--txt); }

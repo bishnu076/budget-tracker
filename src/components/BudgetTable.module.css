@@ -1,0 +1,21 @@
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 14px 14px 12px; }
+.secTitle { font-family: 'Sora', sans-serif; font-weight: 700; font-size: 14px; color: var(--c); padding-bottom: 8px; border-bottom: 2px solid; margin-bottom: 10px; letter-spacing: .4px; }
+.tableWrap { overflow-x: auto; }
+.tbl { width: 100%; border-collapse: collapse; min-width: 340px; }
+.tbl th { font-size: 10px; text-transform: uppercase; letter-spacing: .5px; color: var(--mut); text-align: right; padding: 0 4px 6px; font-weight: 600; white-space: nowrap; }
+.thl { text-align: left !important; }
+.tbl td { border-bottom: 1px solid rgba(42,59,92,.4); padding: 1px 2px; }
+.row:last-child td { border-bottom: 0; }
+.name { background: transparent; border: 0; color: var(--txt); font-family: Inter, sans-serif; font-size: 13px; width: 100%; outline: none; padding: 5px 6px; border-radius: 6px; min-width: 120px; }
+.name:focus { background: var(--card); }
+.date { background: transparent; border: 0; color: var(--mut); font-family: Inter, sans-serif; font-size: 12px; width: 100%; outline: none; padding: 5px 4px; }
+.date:focus { color: var(--txt); }
+.date::-webkit-calendar-picker-indicator { filter: invert(.5); }
+.money { background: transparent; border: 0; color: var(--txt); font-family: 'Sora', sans-serif; font-size: 13px; text-align: right; width: 90px; outline: none; padding: 5px 6px; border-radius: 6px; }
+.money:focus { background: var(--card); }
+.left { text-align: right; font-family: 'Sora', sans-serif; font-size: 13px; color: var(--gold); padding: 5px 8px; white-space: nowrap; }
+.left.bad { color: var(--red); }
+.del { background: transparent; border: 0; color: var(--mut); cursor: pointer; font-size: 12px; padding: 4px 6px; border-radius: 4px; opacity: .5; }
+.del:hover { opacity: 1; color: var(--red); }
+.add { margin-top: 10px; background: transparent; border: 1px dashed var(--line); color: var(--mut); border-radius: 9px; padding: 7px 12px; font-size: 12px; cursor: pointer; width: 100%; font-family: Inter, sans-serif; }
+.add:hover { border-color: var(--c, var(--teal)); color: var(--c, var(--teal)); }

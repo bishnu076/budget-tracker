@@ -1,0 +1,9 @@
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; }
+.h { font-size: 12px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--mut); margin-bottom: 12px; }
+.tbl { width: 100%; border-collapse: collapse; }
+.tbl th { font-size: 10px; text-transform: uppercase; letter-spacing: .5px; color: var(--mut); text-align: right; padding: 0 8px 8px; font-weight: 600; }
+.tbl th:first-child { text-align: left; }
+.tbl td { padding: 7px 8px; border-bottom: 1px solid rgba(42,59,92,.4); font-size: 13px; }
+.tbl td:first-child { display: flex; align-items: center; gap: 8px; }
+.num { text-align: right; font-family: 'Sora', sans-serif; }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 2px; flex-shrink: 0; }

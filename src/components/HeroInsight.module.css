@@ -1,0 +1,8 @@
+.hero { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; background: linear-gradient(135deg, #13324a, #1B2A47); border: 1px solid var(--line); border-radius: 18px; padding: 20px 24px; margin-bottom: 16px; }
+.block { flex: 1; min-width: 200px; }
+.big { font-family: 'Sora', sans-serif; font-weight: 800; font-size: 38px; color: var(--teal); line-height: 1; }
+.lbl { font-family: 'Sora', sans-serif; font-weight: 600; font-size: 13px; margin-top: 4px; color: var(--mut); text-transform: uppercase; letter-spacing: .5px; }
+.desc { font-size: 13px; color: var(--mut); margin-top: 6px; line-height: 1.5; }
+.desc b { color: var(--txt); }
+.divider { width: 1px; background: var(--line); align-self: stretch; min-height: 50px; }
+@media (max-width: 640px) { .divider { display: none; } .big { font-size: 28px; } }
